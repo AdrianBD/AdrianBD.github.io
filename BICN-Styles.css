@@ -1,0 +1,125 @@
+﻿/* Generated for BICN from Microsoft Expression Web4 */
+
+  body, p, td, th { color: black;
+    font-family: Arial,Verdana,Arial,Helvetica,sans-serif;
+    font-size: 10pt;
+    font-style: normal;
+    line-height: 1.5em;
+    }
+
+  ul { list-style-image: url(img_ul.gif);
+    background-position: left top;
+    padding-left: 16px;
+    margin-left: 16px;
+    color: black;
+    line-height: 1.5em;
+    }
+
+  H1 { font-size: 30px;
+    font-weight: bold;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    bottom: 20px;
+    color: rgb(37, 64, 97);
+    line-height: 35px;
+    }
+
+  H2 {
+	font-weight: bold;
+	color: rgb(37, 64, 97);
+	font-size: 20px;
+	padding-bottom: 30px;
+}
+
+  .bold { font-weight: bold;
+    color: rgb(23, 54, 93);
+    }
+
+  .GoodToKnow { color: rgb(152, 72, 6);
+    font-weight: bold;
+    background-image: url(img_goodtoknow.gif);
+    text-transform: uppercase;
+    background-repeat: no-repeat;
+    background-position: left center;
+    display: table;
+    font-size: 14pt;
+    width: 100%;
+    padding-top: 10px;
+    padding-left: 70px;
+    }
+
+  .BusinessCase { color: rgb(152, 72, 6);
+    font-weight: bold;
+    background-image: url(img_bc.gif);
+    text-transform: uppercase;
+    background-repeat: no-repeat;
+    background-position: left center;
+    display: table;
+    width: 100%;
+    font-size: 14pt;
+    padding-top: 10px;
+    padding-left: 70px;
+    }
+
+  .Note { color: rgb(152, 72, 6);
+    font-weight: bold;
+    text-transform: uppercase;
+    background-repeat: no-repeat;
+    font-size: 14pt;
+    display: table;
+    width: 100%;
+    padding-top: 10px;
+    padding-left: 70px;
+    background-position: left bottom;
+    background-image: url(img_note.gif);
+    }
+
+  .BodyNote {
+	border: 1px solid rgb(166, 166, 166);
+	padding: 10px;
+	background-color: rgb(254, 234, 218);
+	display: table;
+	width: 90%;
+	margin: 0pt 10px 10pt;
+	height: auto;
+	margin-bottom: 10pt;
+}
+.BodyGoodToKnow {
+	border: 1px dashed rgb(166, 166, 166);
+	margin: 0pt 10px 10pt;
+	padding: 10pt;
+	background-color: rgb(242, 242, 242);
+	display: table;
+	height: auto;
+	margin: 0pt auto 10pt 10px;
+	width: 90%;
+}
+.BodyBusinessCase {
+	margin: 0pt 10pt 10pt 10px;
+	border: 1px solid rgb(166, 166, 166);
+	padding: 10px;
+	background-color: rgb(242, 242, 242);
+	display: table;
+	height: auto;
+	width: 90%;
+}
+
+
+
+.Step {
+	color: rgb(152, 72, 6);
+	font-weight: bold;
+	text-transform: uppercase;
+	background-repeat: no-repeat;
+	font-size: 14pt;
+	display: table;
+	width: 100%;
+	padding-top: 10px;
+	padding-left: 70px;
+	background-position: left bottom;
+	background-image: url("img_task.gif");
+}
+
+
+
+

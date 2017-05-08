@@ -1,0 +1,305 @@
+﻿/* ----------------------------------------------
+   Version 1.0 			20120307	TH 
+   added var and code 	20120416	TH
+   added table1 		20120417	TH
+   ---------------------------------------------- */
+
+@import url('layout.css');
+
+  body { color: black;
+    font-family: Arial,Verdana,Helvetica,sans-serif;
+    font-size:14px;
+    font-style: normal;
+    line-height: 1.5em;
+    counter-reset: level01;
+    }
+  p, td, th { color: black;
+    font-family: Arial,Verdana,Helvetica,sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    line-height: 1.5em;
+    }
+       
+
+   code {
+      color: black;
+      font-style:normal;
+      font-size:11pt;
+	}
+	
+	
+	var {
+	  color:black;
+	  font-style:italic;
+	  font-weight:bold;
+    }
+
+#content {
+	float: left;
+/*	width: 618px; 
+	min-height: 400px;
+	max-height: 600px;
+	overflow: auto;*/
+/* 	min-width:300px;  */
+/*	margin-top: 10px;*/
+	margin-bottom: 10px;
+	margin-left: 10px;
+	padding-top: 0px;
+	padding-bottom: 10px;
+	padding-left: 10px;	
+    background-color: #fff;
+}
+
+#masthead {
+	width: 798px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	background:#5f8ea9 url('../images/gradient.png') repeat-x;
+	-moz-box-shadow: 5px 5px 5px #666;
+	-webkit-box-shadow: 5px 5px 5px #666;
+	box-shadow: 5px 5px 5px #666;
+}
+
+#footer {
+	font-size: 0.9em;
+	text-align: center;
+	clear: both;
+	width: 100%;
+	padding-top: 2px;
+	padding-bottom: 1px; 
+	background:#5f8ea9 url('../images/gradient.png') repeat-x;
+	-moz-box-shadow: 5px 5px 5px #666;
+	-webkit-box-shadow: 5px 5px 5px #666;
+	box-shadow: 5px 5px 5px #666;
+}
+
+/*  from BICN*/
+  ul { list-style-image: url(img_ul.gif);
+    background-position: left top;
+    padding-left: 16px;
+    margin-left: 16px;
+    color: black;
+    line-height: 1.5em;
+    }
+    
+/*  from BICN*/
+  H1 { font-size: 30px;
+    font-weight: bold;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    bottom: 20px;
+    color: rgb(37, 64, 97);
+    line-height: 35px;
+    }
+ 
+   
+  H2:before {
+	content: counter(level01) " ";
+	counter-increment: level01;
+	}
+
+/*  from BICN*/
+  H2 { 	
+    font-weight: bold;
+	color: rgb(37, 64, 97);
+	font-size: 20px;
+/*	padding-bottom: 20px; */
+    padding-top: 20px;
+    counter-reset: level02;  
+    }
+  
+   
+  H3:before {
+	content: counter(level01) "." counter(level02) " ";
+	counter-increment: level02;
+	}    
+
+  H3 { font-weight: bold;
+    color: rgb(37, 64, 97);
+    font-size: 12pt;
+/*    padding-bottom: 10pt;*/
+    padding-top: 10pt;
+    }
+
+/* Resizing images */    
+  img {
+	    vertical-align: middle;
+	   /* width: 100%;*/
+	    max-width: 800px; /*BICN Size: 360px*/
+	}
+
+/*  from BICN*/
+  .bold { font-weight: bold;
+    color: rgb(23, 54, 93);
+    }
+
+/* BEGIN from BICN*/
+  .GoodToKnow { color: rgb(152, 72, 6);
+    font-weight: bold;
+    background-image: url(img_goodtoknow.gif);
+    text-transform: uppercase;
+    background-repeat: no-repeat;
+    background-position: left center;
+    display: table;
+    font-size: 14pt;
+    width: 100%;
+    padding-top: 10px;
+    padding-left: 70px;
+    }
+    
+   .Thinker { color: rgb(152, 72, 6);
+    font-weight: bold;
+    background-image: url(img_Thinker.jpg);
+    text-transform: uppercase;
+    background-repeat: no-repeat;
+    background-position: left center;
+    display: table;
+    font-size: 14pt;
+    width: 100%;
+    padding-top: 10px;
+    padding-left: 70px;
+    }
+    
+   .SubmitNote { color: rgb(152, 72, 6);
+    font-weight: bold;
+    background-image: url(submit.gif);
+    text-transform: uppercase;
+    background-repeat: no-repeat;
+    background-position: left center;
+    display: table;
+    font-size: 14pt;
+    width: 100%;
+    padding-top: 10px;
+    padding-left: 70px;
+    }
+    
+  .BusinessCase { color: rgb(152, 72, 6);
+    font-weight: bold;
+    background-image: url(img_bc.gif);
+    text-transform: uppercase;
+    background-repeat: no-repeat;
+    background-position: left center;
+    display: table;
+    width: 100%;
+    font-size: 14pt;
+    padding-top: 10px;
+    padding-left: 70px;
+    }
+
+  .Note { color: rgb(152, 72, 6);
+    font-weight: bold;
+    text-transform: uppercase;
+    background-repeat: no-repeat;
+    font-size: 14pt;
+    display: table;
+    width: 100%;
+    padding-top: 10px;
+    padding-left: 70px;
+    background-position: left bottom;
+    background-image: url(img_note.gif);
+    }
+
+  .BodyNote {
+	border: 1px solid rgb(166, 166, 166);
+	padding: 10px;
+	background-color: rgb(254, 234, 218);
+	display: table;
+	width: 90%;
+	margin: 0pt 10px 10pt;
+	height: auto;
+	margin-bottom: 10pt;
+	}
+	
+  .BodyGoodToKnow {
+	border: 1px dashed rgb(166, 166, 166);
+	margin: 0pt 10px 10pt;
+	padding: 10pt;
+	background-color: rgb(242, 242, 242);
+	display: table;
+	height: auto;
+	margin: 0pt auto 10pt 10px;
+	width: 90%;
+    }
+
+  .BodyThinker {
+	border: 1px solid rgb(166, 166, 166);
+	margin: 0pt 10px 10pt;
+	padding: 10pt;
+	background-color: rgb(224, 255, 255);
+	display: table;
+	height: auto;
+	margin: 0pt auto 10pt 10px;
+	width: 90%;
+    }
+
+  .BodySubmit {
+	border: 1px solid rgb(166, 166, 166);
+	margin: 0pt 10px 10pt;
+	padding: 10pt;
+	background-color: rgb(250, 175, 186);
+	display: table;
+	height: auto;
+	margin: 0pt auto 10pt 10px;
+	width: 90%;
+    }
+    
+  .BodyBusinessCase {
+	margin: 0pt 10pt 10pt 10px;
+	border: 1px solid rgb(166, 166, 166);
+	padding: 10px;
+	background-color: rgb(242, 242, 242);
+	display: table;
+	height: auto;
+	width: 90%;
+    }
+
+  .Task {
+	color: rgb(152, 72, 6);
+	font-weight: bold;
+	text-transform: uppercase;
+	background-repeat: no-repeat;
+	font-size: 14pt;
+	display: table;
+	width: 100%;
+	padding-top: 10px;
+	padding-left: 70px;
+	background-position: left bottom;
+	background-image: url("img_task.gif");
+   }
+   
+   .BodyTask {
+	margin: 0pt 10pt 10pt 10px;
+	border: 1px solid rgb(166, 166, 166);
+	padding: 10px;
+	background-color: rgb(242, 242, 242);
+	display: table;
+	height: auto;
+	width: 90%;
+    }
+
+/* END from BICN*/
+
+  .Table1{
+	text-align:left;
+	border-spacing:0 0;
+	border-collapse:collapse;
+
+}
+.Table1 .columnhead 
+{
+	text-align: left;
+	vertical-align:middle;
+	font-weight:bold;
+	padding-top: 5px;
+	padding-bottom: 4px;
+	background-color: rgb(152, 72, 6);
+	color: #ffffff;
+}
+.Table1 td {
+	vertical-align: middle;
+	text-align:left;
+	vertical-align:text-top;
+	border:  1px solid rgb(166, 166, 166);
+}
